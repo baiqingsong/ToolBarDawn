@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ToolBarDawn</string>
+    <string name="menu_search">搜索</string>
+    <string name="menu_notification">通知</string>
+    <string name="item_01">01</string>
+    <string name="item_02">02</string>
+</resources>
