@@ -37,6 +37,30 @@ public class CustomToolBar extends Toolbar {
         tvTitleRight = (TextView) findViewById(R.id.tv_title_right);
     }
 
+    /**
+     * 获取标题控件
+     * @return
+     */
+    public TextView getMainTitle(){
+        return tvTitle;
+    }
+
+    /**
+     * 获取左侧控件
+     * @return
+     */
+    public TextView getMainTitleLeft(){
+        return tvTitleLeft;
+    }
+
+    /**
+     * 获取右侧控件
+     * @return
+     */
+    public TextView getMainTitleRight(){
+        return tvTitleRight;
+    }
+
     //设置主title的内容
     public void setMainTitle(String text) {
         if(tvTitle != null){
